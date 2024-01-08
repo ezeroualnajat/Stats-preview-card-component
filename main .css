@@ -12,7 +12,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	color: #fff;
-	padding: 0 24px;
+	padding: 0 1.5rem;
 }
 /* [ END ] Main Rules */
 
@@ -20,7 +20,7 @@ body {
 main {
 	overflow: hidden;
 	box-shadow: 0px 20px 20px -10px rgba(23, 25, 41, 0.2);
-	border-radius: 8px;
+	border-radius: 0.5rem;
 }
 main article {
 	display: flex;
@@ -29,73 +29,73 @@ main article {
 	main article {
 		flex-direction: column-reverse;
 		text-align: center;
-		max-width: 327px;
+		max-width: 20.438rem;
 	}
 }
 main article section:first-of-type {
-	max-width: 570px;
-	padding: 71px 95px 59px 72px;
+	max-width: 35.625rem;
+	padding: 4.438rem 5.938rem 3.688rem 4.5;
 	background: #1b1937;
 }
 @media screen and (max-width: 768px) {
 	main article section:first-of-type {
-		padding: 40px 31px 32px;
+		padding: 2.5rem 1.938rem 2rem;
 	}
 }
 main article section h1 {
 	font-size: 2rem;
 	font-weight: 700;
 	line-height: 1.375;
-	margin-bottom: 25px;
+	margin-bottom: 0.78125em;
 }
 @media screen and (max-width: 768px) {
 	main article section h1 {
-		font-size: 28px;
+		font-size: 1.75rem;
 		line-height: 1.1428;
-		margin-bottom: 16px;
+		margin-bottom: 0.5714em;
 	}
 }
 main article section h1 span {
 	color: #ab5cdb;
 }
 main article section p {
-	font-size: 15px;
+	font-size: 0.938rem;
 	line-height: 1.666;
-	margin-bottom: 72px;
-	max-width: 346px;
+	margin-bottom: 4.8rem;
+	max-width: 21.625rem;
 	opacity: 0.75;
 }
 @media screen and (max-width: 768px) {
 	main article section p {
-		margin-bottom: 40px;
+		margin-bottom: 2.666em;
 	}
 }
 main article section ul {
 	list-style: none;
 	display: flex;
-	column-gap: 60px;
+	column-gap: 3.75rem;
 }
 @media screen and (max-width: 768px) {
 	main article section ul {
 		flex-direction: column;
-		row-gap: 24px;
+		row-gap: 1.5rem;
 	}
 }
 main article section ul li {
-	font-size: 24px;
+	font-size: 1.5rem;
 	font-weight: 700;
 	line-height: 1.2104;
 	display: flex;
 	flex-direction: column;
-	row-gap: 2px;
+	row-gap: 0.125rem;
 }
 main article section ul li:first-of-type {
-	margin-right: 3px;
+	margin-right: 0.188rem;
 }
 main article section ul span {
 	font-family: 'Lexend Deca', sans-serif;
-	letter-spacing: 1px;
-	font-size: 12px;
+	letter-spacing: 0.063rem;
+	font-size: 0.75rem;
 	font-weight: 400;
 	line-height: 2.083;
 	text-transform: uppercase;
@@ -119,8 +119,7 @@ main article section img:last-of-type {
 @media screen and (max-width: 768px) {
 	main article section img:last-of-type {
 		display: block;
-		max-width: 327px;
-		height: 100%;
+		max-width: 20.438rem;
 	}
 }
 
