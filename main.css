@@ -71,7 +71,7 @@ main section p {
 main section ul {
 	list-style: none;
 	display: flex;
-	column-gap: 3.6875rem;
+	column-gap: 3.8125rem;
 }
 @media screen and (max-width: 768px) {
 	main section ul {
@@ -108,11 +108,12 @@ main section:last-of-type {
 	}
 }
 main section:last-of-type {
-	background-color: rgb(171 92 219);
+	background-color: #ab5cdb;
 }
 main section img {
 	mix-blend-mode: multiply;
 	object-fit: cover;
+	opacity: 75%;
 }
 main section img:first-of-type {
 	display: block;
