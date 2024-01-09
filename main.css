@@ -108,7 +108,7 @@ main section:last-of-type {
 	}
 }
 main section:last-of-type {
-	background-color: rgba(171, 92, 219, 0.75);
+	background-color: rgb(171 92 219);
 }
 main section img {
 	mix-blend-mode: multiply;
